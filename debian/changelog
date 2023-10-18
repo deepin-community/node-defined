@@ -1,3 +1,20 @@
+node-defined (1.0.1+~1.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints
+    + node-defined: Add :any qualifier for nodejs dependency.
+
+  [ Yadd ]
+  * Update standards version to 4.6.1, no changes needed
+  * Fix filenamemangle
+  * Update homepage
+  * Embed typescript declarations
+  * New upstream version 1.0.1+~1.0.0
+
+ -- Yadd <yadd@debian.org>  Thu, 10 Nov 2022 17:23:32 +0100
+
 node-defined (1.0.0-3) unstable; urgency=medium
 
   * Team upload

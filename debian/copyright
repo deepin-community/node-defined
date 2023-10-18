@@ -1,7 +1,8 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: defined
-Upstream-Contact: https://github.com/substack/defined/issues
-Source: https://github.com/substack/defined
+Upstream-Contact: https://github.com/inspect-js/defined/issues
+Source: https://github.com/inspect-js/defined
+ https://registry.npmjs.org/@types/defined
 
 Files: *
 Copyright: 2015 James Halliday <mail@substack.net>
@@ -14,6 +15,10 @@ Comment: The upstream distribution does not contain an explicit statement of
 Files: debian/*
 Copyright: 2015 Ross Gammon <rossgammon@mail.dk>
  2020 Yadd <yadd@debian.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
